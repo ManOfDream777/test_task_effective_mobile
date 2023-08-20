@@ -255,6 +255,7 @@ class PhoneBook:
             for i in values:
                 if value in i.lower():
                     filtered_data.append(contact)
+                    break
         return filtered_data
 
 
